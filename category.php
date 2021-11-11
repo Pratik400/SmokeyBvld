@@ -119,7 +119,6 @@
                         Read More
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -156,7 +155,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseOne" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingOne" >
+                            <div id="collapseOne" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingOne">
                                 <div class="accordion-body panel-body">
                                     <a class="panel-links" href=""> Category One</a>
                                     <a class="panel-links" href=""> Category One</a>
@@ -174,7 +173,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseTwo" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingTwo" >
+                            <div id="collapseTwo" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingTwo">
 
                                 <div class="accordion-body panel-body ">
                                     <label>
@@ -223,7 +222,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseThree" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingThree" >
+                            <div id="collapseThree" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingThree">
                                 <div class="accordion-body panel-body">
                                     <div class="accordion-body panel-body ">
                                         <label>
@@ -257,7 +256,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseFour" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingFour" >
+                            <div id="collapseFour" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingFour">
                                 <div class="accordion-body panel-body">
 
                                     <div class="price-place">
@@ -313,7 +312,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseFive" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingFive" >
+                            <div id="collapseFive" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingFive">
                                 <div class="accordion-body panel-body">
 
                                     <div class="price-place">
@@ -359,7 +358,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseSix" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingSix" >
+                            <div id="collapseSix" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingSix">
                                 <div class="accordion-body panel-body ">
                                     <label>
                                         <input type="checkbox" class="option-input" />
@@ -407,448 +406,330 @@
 
                 <div class="col-md-9 px-1">
 
-                    <div class="row mt-3 g-2 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-4">
+                    <div class="row mt-3 g-3 row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4">
 
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-
                         <div class="col">
                             <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
+                                <div class="product-card">
+                                    <a href="./product.php">
+                                        <div class="sale">
+                                            <span> on sale</span>
+                                        </div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
 
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
+                                        <div class="p-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>(53)</span>
+                                        </div>
+                                        <div class="p-name">Pandora Ash Catcher</div>
+                                        <div class="p-price">$74.99 <del>$90.00</del></div>
+                                    </a>
+                                    <div class="p-btn">
+                                        <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                                        <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                     </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="filter-product">
-                                <a href="./product.php">
-                                    <div class="sale">
-                                        <span> on sale</span>
-                                    </div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                                    <div class="p-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <span>(453)</span>
-                                    </div>
-                                    <div class="p-name">Pandora Ash Catcher</div>
-                                    <div class="p-price">$74.99 <del>$90.00</del></div>
-                                </a>
+                                </div>
                             </div>
                         </div>
 
@@ -865,176 +746,161 @@
 
     <!-- Recently Viewed -->
     <section class="section-slider">
-
         <div class="slider-v1-container container">
             <h4 class="v1-section-title"><span>Recently Viewed</span> <a href="" class=" btn title-btn">View All</a> </h4>
             <div class="v1-slider">
                 <div>
-                    <a href="./product.php">
-                        <div class="sale">
-                            <span> on sale</span>
+                    <div class="product-card">
+                        <a href="./product.php"><img src="https://www.puresativa.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/v/i/vibes-aerospace-grinder-black-2.jpg" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpjsOx8_bK4Qsc-va4esLHDP1OJ9G1LPBwg&usqp=CAU" alt="">
-
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
-                        </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
 
                 <div>
-                    <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
+                    <div class="product-card">
+                        <a href="./product.php"><img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
 
                 <div>
-                    <a href="./product.php">
-                        <div class="save">
-                            <span>save 20%</span>
-                        </div><img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
+                    <div class="product-card">
+                        <a href="./product.php"><img src="https://www.puresativa.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/v/i/vibes-aerospace-grinder-black-2.jpg" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
 
                 <div>
-                    <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
+                    <div class="product-card">
+                        <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
 
                 <div>
-                    <a href="./product.php">
-                        <div class="save">
-                            <span>save 20%</span>
-                        </div><img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
+                    <div class="product-card">
+                        <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
 
                 <div>
-                    <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
+                    <div class="product-card">
+                        <a href="./product.php">
+                            <div class="save">
+                                <span>save 20%</span>
+                            </div><img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
 
                 <div>
-                    <a href="./product.php"><img src="https://www.puresativa.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/v/i/vibes-aerospace-grinder-black-2.jpg" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
+                    <div class="product-card">
+                        <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                         </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./product.php"><img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
-                        </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./product.php"><img src="https://www.puresativa.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/v/i/vibes-aerospace-grinder-black-2.jpg" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
-                        </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
-                        <div class="p-stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(453)</span>
-                        </div>
-                        <div class="p-name">Pandora Ash Catcher</div>
-                        <div class="p-price">$74.99 <del>$90.00</del></div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
-
-
 
     <!-- Shop Different Bongs -->
     <section class="section-slider">
@@ -1043,108 +909,159 @@
             <h4 class="v1-section-title"><span>Shop Different Bongs</span> <a href="" class=" btn title-btn">View All</a> </h4>
             <div class="v1-slider">
                 <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjaaWg8d0hWG1dSPRC8s1soOkKu3fQkBmnJX5QXCLaTOpOakrP_Tlqzlvlww49Me8ylE&usqp=CAU" alt="">
-
-                            <h5>Grinders</h5>
+                    <div class="product-card">
+                        <a href="./product.php"><img src="https://www.puresativa.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/v/i/vibes-aerospace-grinder-black-2.jpg" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
                         </a>
-                    </div>
-
-                </div>
-                <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://n3.sdlcdn.com/imgs/h/u/e/Moksha-White-12-cm-Glass-SDL025779688-1-7ef98.jpg" alt="">
-
-                            <h5>Bongs</h5>
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://5.imimg.com/data5/BK/UM/MY-522783/amazing-gold-fumed-glass-pipe-5-inch-500x500.jpeg" alt="">
-
-                            <h5>Glass Pipes</h5>
-                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
                     </div>
                 </div>
 
                 <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9fXxQsK6Mfshuer941-SStQ1QedQ7yMNuKA&usqp=CAU" alt="">
-
-                            <h5>Nails & Bangers</h5>
+                    <div class="product-card">
+                        <a href="./product.php"><img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
                         </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
                     </div>
                 </div>
 
                 <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://img.vaprio.com/p/7081/7081_22970.jpg" alt="">
-
-                            <h5>Vapes</h5>
+                    <div class="product-card">
+                        <a href="./product.php"><img src="https://www.puresativa.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/v/i/vibes-aerospace-grinder-black-2.jpg" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
                         </a>
-                    </div>
-
-                </div>
-                <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://milehighcure.com/wp-content/uploads/2020/05/MoonRock01.jpg" alt="">
-
-                            <h5>CBD & Hemp</h5>
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://canary.contestimg.wish.com/api/webimage/5d80a0e1330b8b0a236767c2-large.jpg?cache_buster=706d5213068b372478906db4c3dd2bb2" alt="">
-
-                            <h5>Dab Rings</h5>
-                        </a>
-                    </div>
-
-                </div>
-                <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/sa1929_1024x1024.jpg?v=1549473892" alt="">
-
-                            <h5>Ashcatchers</h5>
-                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
                     </div>
                 </div>
 
                 <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://cdn.shopify.com/s/files/1/2245/5667/products/media_9450db33-284b-4992-be82-f02ea24e8856_1024x1024.jpg?v=1571711594" alt="">
-
-                            <h5>Bubblers</h5>
+                    <div class="product-card">
+                        <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
                         </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
                     </div>
-
                 </div>
-                <div>
-                    <div class="cat-box">
-                        <a href="./category.php">
-                            <img src="https://m.media-amazon.com/images/I/81nvDeZ43lL.jpg" alt="">
 
-                            <h5>Dab Torches</h5>
+                <div>
+                    <div class="product-card">
+                        <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
                         </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <a href="./product.php">
+                            <div class="save">
+                                <span>save 20%</span>
+                            </div><img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0250/8793/4554/products/82d20cc714f3f9ac36145173a9b60190_1000x_dfcf9b1c-ddce-45d2-a328-4cfa2e969d16.jpg?v=1573270646" alt="">
+                            <div class="p-stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(453)</span>
+                            </div>
+                            <div class="p-name">Pandora Ash Catcher</div>
+                            <div class="p-price">$74.99 <del>$90.00</del></div>
+                        </a>
+                        <div class="p-btn">
+                            <a href="./cart.php" class="btn cartbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Cart"><i class="fa fa-shopping-cart"></i> <span>Add To Cart</span></a>
+                            <a href="./wishlist.php" class="btn wishbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
+
 
 
 

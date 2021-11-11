@@ -26,19 +26,28 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                 },
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 },
             },
             {
-                breakpoint: 500,
+                breakpoint: 550,
                 settings: {
                     slidesToShow: 2,
+                    dots: true,
+                    arrows: false
+                },
+            },
+
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 1,
                     dots: true,
                     arrows: false
                 },
@@ -58,56 +67,11 @@ $(document).ready(function () {
         watch: true,
     });
 
- 
-    // jQuery('.stellarnav').stellarNav({
-    //   theme: 'light',
-    //   breakpoint: 800,
-    //   position: 'top',
-    //   menuLabel: '',
-    //   openingSpeed: 250,
-    //   closingDelay: 50,
-    //   showArrows: false,
-    //   closeBtn: true,
-    //   closeLabel: 'Close',
-    //   scrollbarFix: true,
-    //   mobileMode: true,
-    // });
 
-    // jQuery(document).ready(function ($) {
-    //   jQuery('.stellarnav').stellarNav({
-    //     theme: 'light',
-    //     showArrows: false,
-    //     breakpoint: 800,
-    //     position: 'right',
-    //     menuLabel: '',closeLabel: '', 
-    //   });
-    // });
-
-
-
-
-    // $(".nav-item-hover").hover(
-    //   function () {
-    //     $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
-    //     $(this).addClass('open');
-    //   },
-    //   function () {
-    //     $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
-    //     $(this).removeClass('open');
-    //   });
-
-
-
-    $(document).ready(function ($) {
-        $('.stellarnav').stellarNav({
-            theme: 'light',
-            showArrows: false,
-            breakpoint: 800,
-            position: 'right',
-            menuLabel: '',
-            closeLabel: '',
-        });
-    });
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 
 
 
