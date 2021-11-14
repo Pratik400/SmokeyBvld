@@ -33,9 +33,20 @@
                 </form>
 
                 <div class="user-nav-btn">
-                    <a href="./signin.php"><i class="fa fa-user"></i></a>
-                    <a href="./wishlist.php"><i class="fa fa-heart"></i></a>
-                    <a href="./cart.php"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="./signin.php" data-bs-toggle="tooltip" data-bs-placement="top" title="Account"><i class="fa fa-user">
+
+                            <span class="bg-danger">!</span>
+                        </i>
+                    </a>
+                    <a href="./wishlist.php" data-bs-toggle="tooltip" data-bs-placement="top" title="Wishlist"><i class="fa fa-heart">
+
+                            <span>5</span>
+                        </i>
+                    </a>
+                    <a href="./cart.php" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i class="fa fa-shopping-cart">
+                            <span>99</span>
+                        </i>
+                    </a>
                 </div>
             </div>
             <ul class="navbar-nav">
@@ -64,74 +75,74 @@
                             <div class="row g-3">
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">Parts & Accessories</h6>
+                                        <h6 class="title"><a href="./category-list.php">Parts & Accessories</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Ashcatchers</a></li>
-                                            <li><a href="./category.php">Glass Adapters</a></li>
-                                            <li><a href="./category.php">Downstems</a></li>
-                                            <li><a href="./category.php">Tools & Appliances</a></li>
-                                            <li><a href="./category.php">Rosin Presses</a></li>
-                                            <li><a href="./category.php">Scales</a></li>
-                                            <li><a href="./category.php">Lighters</a></li>
-                                            <li><a href="./category.php">Storage & Cases</a></li>
-                                            <li><a href="./category.php">Vape Accessories & Parts</a></li>
-                                            <li><a href="./category.php">Atomizers</a></li>
-                                            <li><a href="./category.php">Other Glass Accessories</a></li>
-                                            <li><a href="./category.php">Home Goods and Merch</a></li>
+                                            <li><a href="./product-list.php">Ashcatchers</a></li>
+                                            <li><a href="./product-list.php">Glass Adapters</a></li>
+                                            <li><a href="./product-list.php">Downstems</a></li>
+                                            <li><a href="./product-list.php">Tools & Appliances</a></li>
+                                            <li><a href="./product-list.php">Rosin Presses</a></li>
+                                            <li><a href="./product-list.php">Scales</a></li>
+                                            <li><a href="./product-list.php">Lighters</a></li>
+                                            <li><a href="./product-list.php">Storage & Cases</a></li>
+                                            <li><a href="./product-list.php">Vape Accessories & Parts</a></li>
+                                            <li><a href="./product-list.php">Atomizers</a></li>
+                                            <li><a href="./product-list.php">Other Glass Accessories</a></li>
+                                            <li><a href="./product-list.php">Home Goods and Merch</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">Lifestyle</h6>
+                                        <h6 class="title"><a href="./category-list.php">Lifestyle</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Smoke Cartel Swag</a></li>
-                                            <li><a href="./category.php">Food & Novelty</a></li>
-                                            <li><a href="./category.php">Apparel</a></li>
-                                            <li><a href="./category.php">Home Goods</a></li>
-                                            <li><a href="./category.php">Pet Stuff</a></li>
-                                            <li><a href="./category.php">Cleaning</a></li>
-                                            <li><a href="./category.php">Detox</a></li>
-                                            <li><a href="./category.php">Grow Kits</a></li>
+                                            <li><a href="./product-list.php">Smoke Cartel Swag</a></li>
+                                            <li><a href="./product-list.php">Food & Novelty</a></li>
+                                            <li><a href="./product-list.php">Apparel</a></li>
+                                            <li><a href="./product-list.php">Home Goods</a></li>
+                                            <li><a href="./product-list.php">Pet Stuff</a></li>
+                                            <li><a href="./product-list.php">Cleaning</a></li>
+                                            <li><a href="./product-list.php">Detox</a></li>
+                                            <li><a href="./product-list.php">Grow Kits</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">For Dry Herbs</h6>
+                                        <h6 class="title"><a href="./category-list.php">For Dry Herbs</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Bongs & Water Pipes</a></li>
-                                            <li><a href="./category.php">Bubblers</a></li>
-                                            <li><a href="./category.php">Hand Pipes</a></li>
-                                            <li><a href="./category.php">Bong Bowls</a></li>
-                                            <li><a href="./category.php">Dugouts</a></li>
-                                            <li><a href="./category.php">Grinders</a></li>
-                                            <li><a href="./category.php">Rolling Paper & Trays</a></li>
-                                            <li><a href="./category.php">Blunt Wraps</a></li>
-                                            <li><a href="./category.php">Bong Accessories</a></li>
-                                            <li><a href="./category.php">Grow Kits</a></li>
-                                            <li><a href="./category.php">Lighters</a></li>
-                                            <li><a href="./category.php">Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Bongs & Water Pipes</a></li>
+                                            <li><a href="./product-list.php">Bubblers</a></li>
+                                            <li><a href="./product-list.php">Hand Pipes</a></li>
+                                            <li><a href="./product-list.php">Bong Bowls</a></li>
+                                            <li><a href="./product-list.php">Dugouts</a></li>
+                                            <li><a href="./product-list.php">Grinders</a></li>
+                                            <li><a href="./product-list.php">Rolling Paper & Trays</a></li>
+                                            <li><a href="./product-list.php">Blunt Wraps</a></li>
+                                            <li><a href="./product-list.php">Bong Accessories</a></li>
+                                            <li><a href="./product-list.php">Grow Kits</a></li>
+                                            <li><a href="./product-list.php">Lighters</a></li>
+                                            <li><a href="./product-list.php">Dab Rigs</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">For Oil & Waxes</h6>
+                                        <h6 class="title"><a href="./category-list.php">For Oil & Waxes</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Electric Dab Rigs</a></li>
-                                            <li><a href="./category.php">Recycler Dab Rigs</a></li>
-                                            <li><a href="./category.php">Quartz Bangers & Nails</a></li>
-                                            <li><a href="./category.php">Titanium & Ceramic Nails</a></li>
-                                            <li><a href="./category.php">Nectar Collectors</a></li>
-                                            <li><a href="./category.php">Rosin Presses</a></li>
-                                            <li><a href="./category.php">Torches</a></li>
-                                            <li><a href="./category.php">Carb Caps</a></li>
-                                            <li><a href="./category.php">Dab Tools</a></li>
-                                            <li><a href="./category.php">E-Nails</a></li>
-                                            <li><a href="./category.php">Oil & Wax Storage</a></li>
-                                            <li><a href="./category.php">Dab Tools & Accessories</a></li>
-                                            <li><a href="./category.php">Tools & Accessories</a></li>
+                                            <li><a href="./product-list.php">Electric Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Recycler Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Quartz Bangers & Nails</a></li>
+                                            <li><a href="./product-list.php">Titanium & Ceramic Nails</a></li>
+                                            <li><a href="./product-list.php">Nectar Collectors</a></li>
+                                            <li><a href="./product-list.php">Rosin Presses</a></li>
+                                            <li><a href="./product-list.php">Torches</a></li>
+                                            <li><a href="./product-list.php">Carb Caps</a></li>
+                                            <li><a href="./product-list.php">Dab Tools</a></li>
+                                            <li><a href="./product-list.php">E-Nails</a></li>
+                                            <li><a href="./product-list.php">Oil & Wax Storage</a></li>
+                                            <li><a href="./product-list.php">Dab Tools & Accessories</a></li>
+                                            <li><a href="./product-list.php">Tools & Accessories</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -146,35 +157,35 @@
                             <div class="row g-3">
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">Lifestyle</h6>
+                                        <h6 class="title"><a href="./category-list.php">Lifestyle</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Smoke Cartel Swag</a></li>
-                                            <li><a href="./category.php">Food & Novelty</a></li>
-                                            <li><a href="./category.php">Apparel</a></li>
-                                            <li><a href="./category.php">Home Goods</a></li>
-                                            <li><a href="./category.php">Pet Stuff</a></li>
-                                            <li><a href="./category.php">Cleaning</a></li>
-                                            <li><a href="./category.php">Detox</a></li>
-                                            <li><a href="./category.php">Grow Kits</a></li>
+                                            <li><a href="./product-list.php">Smoke Cartel Swag</a></li>
+                                            <li><a href="./product-list.php">Food & Novelty</a></li>
+                                            <li><a href="./product-list.php">Apparel</a></li>
+                                            <li><a href="./product-list.php">Home Goods</a></li>
+                                            <li><a href="./product-list.php">Pet Stuff</a></li>
+                                            <li><a href="./product-list.php">Cleaning</a></li>
+                                            <li><a href="./product-list.php">Detox</a></li>
+                                            <li><a href="./product-list.php">Grow Kits</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">For Dry Herbs</h6>
+                                        <h6 class="title"><a href="./category-list.php">For Dry Herbs</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Bongs & Water Pipes</a></li>
-                                            <li><a href="./category.php">Bubblers</a></li>
-                                            <li><a href="./category.php">Hand Pipes</a></li>
-                                            <li><a href="./category.php">Bong Bowls</a></li>
-                                            <li><a href="./category.php">Dugouts</a></li>
-                                            <li><a href="./category.php">Grinders</a></li>
-                                            <li><a href="./category.php">Rolling Paper & Trays</a></li>
-                                            <li><a href="./category.php">Blunt Wraps</a></li>
-                                            <li><a href="./category.php">Bong Accessories</a></li>
-                                            <li><a href="./category.php">Grow Kits</a></li>
-                                            <li><a href="./category.php">Lighters</a></li>
-                                            <li><a href="./category.php">Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Bongs & Water Pipes</a></li>
+                                            <li><a href="./product-list.php">Bubblers</a></li>
+                                            <li><a href="./product-list.php">Hand Pipes</a></li>
+                                            <li><a href="./product-list.php">Bong Bowls</a></li>
+                                            <li><a href="./product-list.php">Dugouts</a></li>
+                                            <li><a href="./product-list.php">Grinders</a></li>
+                                            <li><a href="./product-list.php">Rolling Paper & Trays</a></li>
+                                            <li><a href="./product-list.php">Blunt Wraps</a></li>
+                                            <li><a href="./product-list.php">Bong Accessories</a></li>
+                                            <li><a href="./product-list.php">Grow Kits</a></li>
+                                            <li><a href="./product-list.php">Lighters</a></li>
+                                            <li><a href="./product-list.php">Dab Rigs</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -189,55 +200,55 @@
                             <div class="row g-3">
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">Lifestyle</h6>
+                                        <h6 class="title"><a href="./category-list.php">Lifestyle</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Smoke Cartel Swag</a></li>
-                                            <li><a href="./category.php">Food & Novelty</a></li>
-                                            <li><a href="./category.php">Apparel</a></li>
-                                            <li><a href="./category.php">Home Goods</a></li>
-                                            <li><a href="./category.php">Pet Stuff</a></li>
-                                            <li><a href="./category.php">Cleaning</a></li>
-                                            <li><a href="./category.php">Detox</a></li>
-                                            <li><a href="./category.php">Grow Kits</a></li>
+                                            <li><a href="./product-list.php">Smoke Cartel Swag</a></li>
+                                            <li><a href="./product-list.php">Food & Novelty</a></li>
+                                            <li><a href="./product-list.php">Apparel</a></li>
+                                            <li><a href="./product-list.php">Home Goods</a></li>
+                                            <li><a href="./product-list.php">Pet Stuff</a></li>
+                                            <li><a href="./product-list.php">Cleaning</a></li>
+                                            <li><a href="./product-list.php">Detox</a></li>
+                                            <li><a href="./product-list.php">Grow Kits</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">For Dry Herbs</h6>
+                                        <h6 class="title"><a href="./category-list.php">For Dry Herbs</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Bongs & Water Pipes</a></li>
-                                            <li><a href="./category.php">Bubblers</a></li>
-                                            <li><a href="./category.php">Hand Pipes</a></li>
-                                            <li><a href="./category.php">Bong Bowls</a></li>
-                                            <li><a href="./category.php">Dugouts</a></li>
-                                            <li><a href="./category.php">Grinders</a></li>
-                                            <li><a href="./category.php">Rolling Paper & Trays</a></li>
-                                            <li><a href="./category.php">Blunt Wraps</a></li>
-                                            <li><a href="./category.php">Bong Accessories</a></li>
-                                            <li><a href="./category.php">Grow Kits</a></li>
-                                            <li><a href="./category.php">Lighters</a></li>
-                                            <li><a href="./category.php">Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Bongs & Water Pipes</a></li>
+                                            <li><a href="./product-list.php">Bubblers</a></li>
+                                            <li><a href="./product-list.php">Hand Pipes</a></li>
+                                            <li><a href="./product-list.php">Bong Bowls</a></li>
+                                            <li><a href="./product-list.php">Dugouts</a></li>
+                                            <li><a href="./product-list.php">Grinders</a></li>
+                                            <li><a href="./product-list.php">Rolling Paper & Trays</a></li>
+                                            <li><a href="./product-list.php">Blunt Wraps</a></li>
+                                            <li><a href="./product-list.php">Bong Accessories</a></li>
+                                            <li><a href="./product-list.php">Grow Kits</a></li>
+                                            <li><a href="./product-list.php">Lighters</a></li>
+                                            <li><a href="./product-list.php">Dab Rigs</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-6">
                                     <div class="col-megamenu">
-                                        <h6 class="title">For Oil & Waxes</h6>
+                                        <h6 class="title"><a href="./category-list.php">For Oil & Waxes</a></h6>
                                         <ul class="list-unstyled">
-                                            <li><a href="./category.php">Electric Dab Rigs</a></li>
-                                            <li><a href="./category.php">Recycler Dab Rigs</a></li>
-                                            <li><a href="./category.php">Quartz Bangers & Nails</a></li>
-                                            <li><a href="./category.php">Titanium & Ceramic Nails</a></li>
-                                            <li><a href="./category.php">Nectar Collectors</a></li>
-                                            <li><a href="./category.php">Rosin Presses</a></li>
-                                            <li><a href="./category.php">Torches</a></li>
-                                            <li><a href="./category.php">Carb Caps</a></li>
-                                            <li><a href="./category.php">Dab Tools</a></li>
-                                            <li><a href="./category.php">E-Nails</a></li>
-                                            <li><a href="./category.php">Oil & Wax Storage</a></li>
-                                            <li><a href="./category.php">Dab Tools & Accessories</a></li>
-                                            <li><a href="./category.php">Tools & Accessories</a></li>
+                                            <li><a href="./product-list.php">Electric Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Recycler Dab Rigs</a></li>
+                                            <li><a href="./product-list.php">Quartz Bangers & Nails</a></li>
+                                            <li><a href="./product-list.php">Titanium & Ceramic Nails</a></li>
+                                            <li><a href="./product-list.php">Nectar Collectors</a></li>
+                                            <li><a href="./product-list.php">Rosin Presses</a></li>
+                                            <li><a href="./product-list.php">Torches</a></li>
+                                            <li><a href="./product-list.php">Carb Caps</a></li>
+                                            <li><a href="./product-list.php">Dab Tools</a></li>
+                                            <li><a href="./product-list.php">E-Nails</a></li>
+                                            <li><a href="./product-list.php">Oil & Wax Storage</a></li>
+                                            <li><a href="./product-list.php">Dab Tools & Accessories</a></li>
+                                            <li><a href="./product-list.php">Tools & Accessories</a></li>
                                         </ul>
                                     </div>
                                 </div>

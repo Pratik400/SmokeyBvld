@@ -85,13 +85,18 @@
                         </div>
                     </div>
                 </div>
-                
-              
+
+
+
 
                 <div class="col-12">
                     <div class="sub-table">
                         <div class="summary-block">
                             <ul>
+                                <li class="coupon">
+                                    <span>Have a Coupon card?</span>
+                                    <div><input type="text" name="form-control" id=""> <button class="btn default-btn">Apply</button></div>
+                                </li>
                                 <li class="subtotal">
                                     <span class="label">Subtotal</span><span class="value">$539.91</span>
                                 </li>

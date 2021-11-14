@@ -88,6 +88,24 @@
                             </ul>
                         </div>
 
+                        <div class="infos">
+                            <ul>
+                                <li>
+                                    <p>Category</p><strong>: Bong</strong>
+                                </li>
+                                <li>
+                                    <p>Sub Category</p><strong>: Glass Bong</strong>
+                                </li>
+                                <li>
+                                    <p>Stock</p><strong>: 500</strong>
+                                </li>
+                                <li>
+                                    <p>Stock</p><strong class="text-danger">: Out of Stock</strong>
+                                </li>
+                            </ul>
+                        </div>
+
+
                         <div class="price">
                             <div class="discount"><del><small>$189.99</small></del></div>
                             <div class="sell-price"><b>$159.99</b></div>
@@ -117,6 +135,17 @@
                             </div>
                         </div>
 
+                        <div class="specs-container">
+                            <div class="specs-box">
+                                <span>Quantity : </span>
+                                <div class="qtySelect">
+                                    <button class="btn"><i class="fa fa-minus"></i></button>
+                                    <input type="number" class="form-contro" name="quantity" id="">
+                                    <button class="btn"><i class="fa fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="d-flex align-items-center ">
                             <a href="./cart.php" class="add-to-cart-btn">
                                 Add to cart
@@ -125,6 +154,8 @@
                             <a href=""><i class="far fa-heart"></i></a>
 
                         </div>
+
+                   
 
                         <div class="products-addons">
 
@@ -388,7 +419,7 @@
         <div class="slider-v1-container container">
             <h4 class="v2-section-title justify-content-start ps-1"><span class="ps-1" style="background-color: #eeeeee;">Similar Products</span></h4>
             <div class="v1-slider">
-            
+
                 <div>
                     <div class="product-card">
                         <a href="./product.php"> <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
