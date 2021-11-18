@@ -95,7 +95,9 @@
                             <ul>
                                 <li class="coupon">
                                     <span>Have a Coupon card?</span>
-                                    <div><input type="text" name="form-control" id=""> <button class="btn default-btn">Apply</button></div>
+                                    <form class="coupon-form">
+                                        <input type="text" name="form-control" id=""> <button class="btn default-btn">Apply</button>
+                                    </form>
                                 </li>
                                 <li class="subtotal">
                                     <span class="label">Subtotal</span><span class="value">$539.91</span>

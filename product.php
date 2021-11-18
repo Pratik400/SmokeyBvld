@@ -155,7 +155,7 @@
 
                         </div>
 
-                   
+
 
                         <div class="products-addons">
 
@@ -598,13 +598,13 @@
 
 
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn px-3 py-1 btn-black-outline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn px-3 py-1 btn-black-outline" data-bs-toggle="modal" data-bs-target="#reviewModal">
                         <i class="fa fa-user"></i>
                         Write a review
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" data-bs-backdrop="static" aria-hidden="true">
+                    <div class="modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModalLabel" data-bs-backdrop="static" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -612,18 +612,21 @@
                                 </div>
                                 <div class="modal-body">
 
-                                    <form>
+                                    <form class="review-form">
                                         <div class="form-group row">
-                                            <label for="rev-name" class="col-sm-12 col-form-label">Full Name</label>
-                                            <div class="col-sm-12">
-                                                <input type="text" class="form-control" id="rev-name" placeholder="Enter Full Name">
-                                            </div>
-                                        </div>
+                                        <label for="re-mes" class="col-sm-12 col-form-label">Your Rating <span class="text-danger">*</span></label>
 
-                                        <div class="form-group row">
-                                            <label for="rev-email" class="col-sm-12 col-form-label">Email</label>
-                                            <div class="col-sm-12">
-                                                <input type="email" class="form-control" id="rev-email" placeholder="Enter Password">
+                                                <div class="rating">
+                                                    <input type="radio" name="rating" id="rating-5">
+                                                    <label for="rating-5"></label>
+                                                    <input type="radio" name="rating" id="rating-4">
+                                                    <label for="rating-4"></label>
+                                                    <input type="radio" name="rating" id="rating-3">
+                                                    <label for="rating-3"></label>
+                                                    <input type="radio" name="rating" id="rating-2">
+                                                    <label for="rating-2"></label>
+                                                    <input type="radio" name="rating" id="rating-1">
+                                                    <label for="rating-1"></label>
                                             </div>
                                         </div>
 
@@ -637,8 +640,8 @@
                                     </form>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-success">Submit</button>
+                                    <button type="button" class="btn btn-danger text-white" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success text-white">Submit</button>
                                 </div>
                             </div>
                         </div>
@@ -723,6 +726,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -749,6 +753,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -775,6 +780,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -801,6 +807,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -827,6 +834,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -853,6 +861,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -879,6 +888,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy
@@ -905,6 +915,7 @@
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
                                     <div>
                                         <h6>
                                             Chrissy

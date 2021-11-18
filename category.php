@@ -33,7 +33,7 @@
                                 These sturdy glass water pipes not only filter fine particles from smoke, but also deliver smoother, cooler hits. Some bongs also offer percolators (percs) for greater diffusion, condensing and cooling smoke even more for massive rips!
 
                             </p>
-                            <p>Whether it's for flowers, dry herbs, or tobacco- savvy smokers have known about water pipes for millennia! Glass bongs filter and cool dry herbs or tobacco to provide a kinder, gentler smoking experience, often with internal percolators to create an even smoother smoke.</p>
+                            <p>Whether it's for flowers, dry herbs, or tobacco- savvy smokers have known about water pipes for millennia! Glass bongs filter and cool dry herbs or tobacco to provide a kinder, gentler smoking experience, often with internal percolators to create an even smoother smokeWhether it's for flowers, dry herbs, or tobacco- savvy smokers have known about water pipes for millennia! Glass bongs filter and cool dry herbs or tobacco to provide a kinder, gentler smoking experience, often with internal percolators to create an even smoother smokeWhether it's for flowers, dry herbs, or tobacco- savvy smokers have known about water pipes for millennia! Glass bongs filter and cool dry herbs or tobacco to provide a kinder, gentler smoking experience, often with internal percolators to create an even smoother smokeWhether it's for flowers, dry herbs, or tobacco- savvy smokers have known about water pipes for millennia! Glass bongs filter and cool dry herbs or tobacco to provide a kinder, gentler smoking experience, often with internal percolators to create an even smoother smoke.</p>
 
                             <p>For use with wax, oils, and dabs, we recommend choosing a glass dab rig instead, as those are designed to maximize flavor and are perfect for concentrates.</p>
 
@@ -142,7 +142,6 @@
                             </select>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col-12 col-md-3 mb-5 px-1">
@@ -157,11 +156,84 @@
                             </h2>
                             <div id="collapseOne" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingOne">
                                 <div class="accordion-body panel-body">
-                                    <a class="panel-links" href=""> Category One</a>
-                                    <a class="panel-links" href=""> Category One</a>
-                                    <a class="panel-links" href=""> Category One</a>
-                                    <a class="panel-links" href=""> Category One</a>
-                                    <a class="panel-links" href=""> Category One</a>
+                                    <ul class="catergory-lists">
+                                        <li>
+                                            <a class="panel-links" href="">Parts & Accessories</a>
+
+                                            <ul>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Ashcatchers</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Glass Adapters</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Downstems</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Tools & AppliancesTools & AppliancesTools & Appliances</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Rosin Presses</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Scales</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Lighters</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Storage & Cases</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Vape Accessories & Parts</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Atomizers</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Other Glass Accessories</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Home Goods and Merch</a></li>
+
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="panel-links" href="">Lifestyle</a>
+
+                                            <ul>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Smoke Cartel Swag</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Food & Novelty</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Apparel</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Home Goods</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Pet Stuff</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Cleaning</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Detox</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Grow Kits</a></li>
+
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="panel-links" href="">For Dry Herbs</a>
+                                            <ul>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Bongs & Water Pipes</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Bubblers</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Hand Pipes</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Bong Bowls</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Dugouts</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Grinders</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Rolling Paper & Trays</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Blunt Wraps</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Bong Accessories</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Grow Kits</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Lighters</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Dab Rigs</a></li>
+                                            </ul>
+
+                                        </li>
+                                        <li>
+                                            <a class="panel-links" href="">For Oil & Waxes</a>
+
+                                            <ul>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Electric Dab Rigs</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Recycler Dab Rigs</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Quartz Bangers & Nails</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Titanium & Ceramic Nails</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Nectar Collectors</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Rosin Presses</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Torches</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Carb Caps</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Dab Tools</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">E-Nails</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Oil & Wax Storage</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Dab Tools & Accessories</a></li>
+                                                <li><a class="panel-sublinks" href="./product-list.php">Tools & Accessories</a></li>
+
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +245,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseTwo" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingTwo">
+                            <div id="collapseTwo" class="panel-collapse accordion-collapse collapse" aria-labelledby="headingTwo">
 
                                 <div class="accordion-body panel-body ">
                                     <label>
@@ -222,7 +294,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseThree" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingThree">
+                            <div id="collapseThree" class="panel-collapse accordion-collapse collapse" aria-labelledby="headingThree">
                                 <div class="accordion-body panel-body">
                                     <div class="accordion-body panel-body ">
                                         <label>
@@ -259,7 +331,23 @@
                             <div id="collapseFour" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingFour">
                                 <div class="accordion-body panel-body">
 
-                                    <div class="price-place">
+                                    <div class="range-container">
+                                        <input type="text" id="price-range" name="price-range" value="" />
+
+
+                                        <p class="pt-3 mb-0 text-main">Range:</p>
+                                        <div class="range-info">
+                                            <div class="pe-1">$<span id="price_from"></div></span>
+                                            - <div class="ps-1">$<span id="price_to"></span></div>
+                                        </div>
+
+                                        <button class="btn default-btn mt-3 mb-0">Filter</button>
+                                    </div>
+
+
+
+
+                                    <!-- <div class="price-place">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">$</div>
@@ -300,7 +388,7 @@
                                     <label>
                                         <input type="radio" name="price" class="option-input radio" />
                                         <span>$50 & above</span>
-                                    </label>
+                                    </label> -->
                                 </div>
                             </div>
                         </div>
@@ -312,7 +400,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseFive" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingFive">
+                            <div id="collapseFive" class="panel-collapse accordion-collapse collapse" aria-labelledby="headingFive">
                                 <div class="accordion-body panel-body">
 
                                     <div class="price-place">
@@ -358,7 +446,7 @@
                                     </a>
                                 </div>
                             </h2>
-                            <div id="collapseSix" class="panel-collapse accordion-collapse collapse show" aria-labelledby="headingSix">
+                            <div id="collapseSix" class="panel-collapse accordion-collapse collapse" aria-labelledby="headingSix">
                                 <div class="accordion-body panel-body ">
                                     <label>
                                         <input type="checkbox" class="option-input" />
@@ -401,6 +489,41 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+
+                    <div class="recent-posts">
+                        <h5>Recent Posts</h5>
+                        <a href="./product.php" class="recent-items">
+                            <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+
+                            <div class="recent-info">
+                                <h6>Zippo Lighter Psychedelic</h6>
+                                <p> <del>$40.00</del> $30.00 </p>
+                            </div>
+
+                        </a>
+
+                        <a href="./product.php" class="recent-items">
+                            <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+
+                            <div class="recent-info">
+                                <h6>Zippo Lighter Psychedelic</h6>
+                                <p> <del>$40.00</del> $30.00 </p>
+                            </div>
+
+                        </a>
+
+                        <a href="./product.php" class="recent-items">
+                            <img src="https://cdn.shopify.com/s/files/1/0011/0025/1195/products/SA2788-14BL_1024x1024.jpg?v=1604955704" alt="">
+
+                            <div class="recent-info">
+                                <h6>Zippo Lighter Psychedelic</h6>
+                                <p> <del>$40.00</del> $30.00 </p>
+                            </div>
+
+                        </a>
+
                     </div>
                 </div>
 
@@ -1073,7 +1196,6 @@
         $(document).ready(function() {
             $('.sort1').niceSelect();
 
-            // $(".content").css('height', '200px !important');
             $(".show_hide").on("click", function() {
 
                 if ($(".content").height() < 201) {
@@ -1086,6 +1208,26 @@
                     $(".content").removeClass('all')
                 }
 
+            });
+
+            $("#price-range").ionRangeSlider({
+                skin: "round",
+                type: "double",
+                min: 0,
+                max: 1000,
+                from: 300,
+                to: 600,
+                grid: false,
+                force_edges: true,
+                prefix: "$ ",
+                onStart: function(data) {
+                    document.getElementById('price_to').innerHTML = data.to;
+                    document.getElementById('price_from').innerHTML = data.from;
+                },
+                onFinish: function(data) {
+                    document.getElementById('price_to').innerHTML = data.to;
+                    document.getElementById('price_from').innerHTML = data.from;
+                }
             });
         });
     </script>

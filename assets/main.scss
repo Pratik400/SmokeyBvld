@@ -84,6 +84,10 @@ li {
     overflow: hidden;
 }
 
+.text-main {
+    color: color(main);
+}
+
 .btn {
     border-radius: 0;
 
@@ -112,8 +116,8 @@ li {
 
     &:hover {
         background-color: color(maind);
-    color: #fff;
-    border: 1px solid color(main);
+        color: #fff;
+        border: 1px solid color(main);
     }
 }
 
@@ -586,13 +590,14 @@ li {
                         color: #fff;
                         margin: 2px 13px;
                         font-size: 2em;
-                        position:relative;
-                        span{
+                        position: relative;
+
+                        span {
                             font-family: $eng2;
                             font-size: 14px;
                             height: 20px;
                             width: 20px;
-                            border-radius:100%;
+                            border-radius: 100%;
                             background: color(main);
                             position: absolute;
                             color: #000;
@@ -1534,9 +1539,27 @@ li {
     .content {
         overflow: hidden;
         height: 200px;
+        // border: 10px solid #000;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            right: 0;
+            left: 0;
+            bottom: 0;
+            height: 40px;
+
+        }
 
         &.all {
             height: auto;
+
+            &:after {
+                height: 0px;
+
+            }
         }
     }
 }
@@ -1564,8 +1587,8 @@ li {
             align-items: center;
             float: right;
             transform: scale(.9);
-            position:relative;
-            z-index:20;
+            position: relative;
+            z-index: 20;
 
             span {
                 margin-right: 10px;
@@ -1730,38 +1753,48 @@ li {
                         }
                     }
 
-                    span {
-                        display: flex;
+                    .catergory-lists {
 
-                        .pin-card {
-                            text-align: center;
-                            display: flex;
-                            margin-right: 10px;
+                        &>li {
+                            margin-bottom: 20px;
+                        }
 
-                            .pin-icon {
-                                height: 20px;
-                                width: 20px;
-                                border-radius: 0rem;
+                        a.panel-links {
+                            letter-spacing: .5px;
+                            word-spacing: 2px;
+                            margin-bottom: 5px;
+                            display: block;
+                            font-weight: 600;
+                            font-size: 1.15em;
 
-                                i {
-                                    color: #fff;
-                                    padding-top: 4.5px;
-                                    font-size: 10px;
-                                }
+                            &:hover {
+                                color: color(maind);
+                            }
+
+                            ~ul li {
+                                list-style: circle !important;
+                                margin-left: 20px;
+
+
+                            }
+                        }
+
+                        a.panel-sublinks {
+                            letter-spacing: .5px;
+                            word-spacing: 2px;
+                            margin-bottom: 5px;
+                            font-weight: 500;
+                            opacity: .8;
+                            line-height: 1.2;
+                            display: block;
+
+                            &:hover {
+                                color: color(maind);
                             }
                         }
                     }
 
-                    a.panel-links {
-                        letter-spacing: .5px;
-                        word-spacing: 2px;
-                        margin-bottom: 8px;
-                        font-weight: 500;
 
-                        &:hover {
-                            color: color(main);
-                        }
-                    }
 
                     .price-place {
                         display: flex;
@@ -1809,6 +1842,63 @@ li {
 
                     }
 
+                    .range-container {
+                        padding: 10px 10px 15px 10px;
+
+                        .irs--round {
+
+                            .irs-from,
+                            .irs-to,
+                            .irs-single {
+                                font-size: 12px;
+                                background: color(main);
+
+                                &:before {
+                                    border-top-color: color(main);
+                                }
+                            }
+
+                            .irs-min,
+                            .irs-max {
+                                color: #333;
+                                font-size: 11px;
+                                top: 10px;
+                            }
+
+                            .irs-handle {
+                                top: 30px;
+                                width: 14px;
+                                height: 14px;
+                                background: color(main);
+                                border: 4px solid color(main);
+                            }
+
+                            .irs-bar {
+                                background-color: color(maind);
+                            }
+
+                            .irs-grid-text {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .range-info {
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: rgb(97, 97, 97);
+
+                        }
+
+                        .default-btn {
+                            padding: 3px 8px;
+                            font-size: 13px;
+                            letter-spacing: .5px;
+                        }
+
+                    }
+
                 }
             }
         }
@@ -1816,6 +1906,75 @@ li {
 
     .filter-product {
         @extend .product-card;
+    }
+
+    .recent-posts {
+        margin: 20px 20px 5px 20px;
+        padding: 20px 10px 10px 10px;
+        background: #eef7e5;
+
+
+        h5 {
+            font-family: $eng2;
+            padding-left: 5px;
+            font-weight: 700;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgb(216, 216, 216);
+        }
+
+        .recent-items {
+            display: flex;
+            margin: 20px 0;
+
+            @media (max-width:992px) {
+                flex-wrap: wrap;
+            }
+
+            &:not(:last-child) {
+                padding-bottom: 20px;
+                border-bottom: 1px solid rgb(224, 224, 224);
+            }
+
+            img {
+                height: 60px;
+                width: 60px;
+                border-radius: 100%;
+                object-fit: cover;
+            }
+
+            .recent-info {
+                margin-left: 5px;
+
+                h6 {
+                    margin-top: 2px;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                p {
+                    margin: 0;
+                    font-family: $eng3;
+                    font-weight: 600;
+
+                    del {
+                        color: #808080;
+                        font-size: 90%;
+                        margin-right: 5px;
+                        // text-decoration: stri;
+                    }
+                }
+            }
+
+            &:hover {
+                h6 {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        h5 {}
+
     }
 
 }
@@ -2640,10 +2799,20 @@ li {
 
         .rev-user {
             display: flex;
-            justify-content: space-between;
+            // justify-content: space-between;
+
+            img {
+                height: 40px;
+                width: 40px;
+                border-radius: 100%;
+                object-fit: cover;
+                margin-right: 10px;
+                border: 1px solid color(main);
+            }
 
             h6 {
                 margin: 0;
+                margin-top: 4px;
                 font-size: .95em;
 
 
@@ -2665,6 +2834,7 @@ li {
             }
 
             .rev-date {
+                margin-left: auto;
                 font-size: .85em;
                 color: #575757;
             }
@@ -2672,6 +2842,7 @@ li {
 
         .rev-content {
 
+            margin-left: 5px;
             padding-left: 10px;
             border-left: 2px solid #7c7c7c;
 
@@ -2689,6 +2860,58 @@ li {
 
         }
 
+    }
+
+}
+
+.review-form {
+
+    textarea {
+        height: 200px;
+    }
+
+    .col-form-label {
+        font-weight: 700;
+    }
+
+    .rating {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        overflow: hidden;
+        flex-direction: row-reverse;
+        position: relative;
+
+        .rating-0 {
+            filter: grayscale(100%);
+        }
+
+        &>input {
+            display: none;
+        }
+
+        &>label {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            margin-top: auto;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 76%;
+            transition: .3s;
+        }
+
+        &>input:checked~label,
+        &>input:checked~label~label {
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23fcd93a' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+        }
+
+
+        &>input:not(:checked)~label:hover,
+        &>input:not(:checked)~label:hover~label {
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23d8b11e' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+        }
     }
 
 }
@@ -2973,7 +3196,7 @@ li {
                     font-weight: 800;
 
                     &:focus {
-                        border-color: lighten(color(main),20%);
+                        border-color: lighten(color(main), 20%);
                     }
                 }
 
@@ -3089,10 +3312,10 @@ li {
                 }
 
                 li.coupon {
-                    &>div {
+                    .coupon-form {
                         display: flex;
 
-                        input{
+                        input {
                             text-align: center;
                             font-size: 16px;
                             border-radius: 0;
@@ -3102,15 +3325,15 @@ li {
                             height: 30px;
                             vertical-align: middle;
                             color: #555;
-        
+
                             &:focus {
-                                border-color: lighten(color(main),20%);
+                                border-color: lighten(color(main), 20%);
                             }
                         }
 
                         .btn {
                             margin: 0;
-                            padding:3px 5px;
+                            padding: 3px 5px;
                             font-size: 1em;
                             letter-spacing: 1px;
                             border-radius: 0;
