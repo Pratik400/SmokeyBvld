@@ -614,19 +614,19 @@
 
                                     <form class="review-form">
                                         <div class="form-group row">
-                                        <label for="re-mes" class="col-sm-12 col-form-label">Your Rating <span class="text-danger">*</span></label>
+                                            <label for="re-mes" class="col-sm-12 col-form-label">Your Rating <span class="text-danger">*</span></label>
 
-                                                <div class="rating">
-                                                    <input type="radio" name="rating" id="rating-5">
-                                                    <label for="rating-5"></label>
-                                                    <input type="radio" name="rating" id="rating-4">
-                                                    <label for="rating-4"></label>
-                                                    <input type="radio" name="rating" id="rating-3">
-                                                    <label for="rating-3"></label>
-                                                    <input type="radio" name="rating" id="rating-2">
-                                                    <label for="rating-2"></label>
-                                                    <input type="radio" name="rating" id="rating-1">
-                                                    <label for="rating-1"></label>
+                                            <div class="rating">
+                                                <input type="radio" name="rating" id="rating-5">
+                                                <label for="rating-5"></label>
+                                                <input type="radio" name="rating" id="rating-4">
+                                                <label for="rating-4"></label>
+                                                <input type="radio" name="rating" id="rating-3">
+                                                <label for="rating-3"></label>
+                                                <input type="radio" name="rating" id="rating-2">
+                                                <label for="rating-2"></label>
+                                                <input type="radio" name="rating" id="rating-1">
+                                                <label for="rating-1"></label>
                                             </div>
                                         </div>
 
@@ -722,7 +722,7 @@
                 </div>
 
                 <div class="col-12 mt-3 mb-5">
-                    <div class="row row-cols-1 row-cols-md-2">
+                    <div class="row row-cols-1 row-cols-md-1">
                         <div class="col p-1">
                             <div class="rev-box">
                                 <div class="rev-user">
@@ -747,33 +747,195 @@
                                 <div class="rev-content">
                                     <strong>Awesome</strong>
                                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga rem quia iure quae optio odit totam nobis quis eius perspiciatis, facere reiciendis? Quam, eum earum! Atque praesentium dolor iste?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col p-1">
-                            <div class="rev-box">
-                                <div class="rev-user">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
-                                    <div>
-                                        <h6>
-                                            Chrissy
-                                            <span>Verified User</span>
-                                        </h6>
-                                        <div class="star">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
+                                    <div class="action">
+                                        <button class="btn"> <i class="fa fa-thumbs-up"></i>12</button>
+                                        <button class="btn"> <i class="fa fa-thumbs-down"></i>3</button>
+                                        <button class="btn"> <i class="fa fa-comment-dots"></i> Reply</button>
+                                    </div>
+
+                                    <form class="comment-form ">
+                                        <div class="rev-box p-1 py-2">
+                                            <div class="rev-user">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
+                                                <div>
+                                                    <h6>
+                                                        Chrissy
+                                                        <span>Verified User</span>
+                                                    </h6>
+                                                </div>
+                                            </div>
                                         </div>
+
+                                        <div class="form-group row px-1 pt-2">
+                                            <!-- <label for="re-mes" class="col-sm-12 col-form-label">Rate this Product</label> -->
+
+                                            <div class="rating mb-1">
+                                                <input type="radio" name="comment-rating" id="comment-rating-5">
+                                                <label for="comment-rating-5"></label>
+                                                <input type="radio" name="comment-rating" id="comment-rating-4">
+                                                <label for="comment-rating-4"></label>
+                                                <input type="radio" name="comment-rating" id="comment-rating-3">
+                                                <label for="comment-rating-3"></label>
+                                                <input type="radio" name="comment-rating" id="comment-rating-2">
+                                                <label for="comment-rating-2"></label>
+                                                <input type="radio" name="comment-rating" id="comment-rating-1">
+                                                <label for="comment-rating-1"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row px-1">
+                                            <!-- <label for="re-mes" class="col-sm-12 col-form-label">Message</label> -->
+                                            <div class="col-sm-12">
+                                                <textarea type="text" class="form-control" id="re-mes" placeholder="Re-enter New Password">
+                                                </textarea>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <!-- reply -->
+                                    <div class="rev-box">
+                                        <div class="rev-user">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
+                                            <div>
+                                                <h6>
+                                                    Chrissy
+                                                    <span>Verified User</span>
+                                                </h6>
+                                                <div class="star">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="rev-date">
+                                                04/03/2020
+                                            </div>
+                                        </div>
+                                        <div class="rev-content">
+                                            <strong>Awesome</strong>
+                                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga rem quia iure quae optio odit totam nobis quis eius perspiciatis, facere reiciendis? Quam, eum earum! Atque praesentium dolor iste?</p>
+                                        </div>
+
+                                        <div class="action">
+                                            <button class="btn"> <i class="fa fa-thumbs-up"></i>12</button>
+                                            <button class="btn"> <i class="fa fa-thumbs-down"></i>3</button>
+                                            <button class="btn"> <i class="fa fa-comment-dots"></i> Reply</button>
+                                        </div>
+                                        <form class="comment-form ">
+                                            <div class="rev-box p-1 py-2">
+                                                <div class="rev-user">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
+                                                    <div>
+                                                        <h6>
+                                                            Chrissy
+                                                            <span>Verified User</span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="form-group row px-1 pt-2">
+                                                <!-- <label for="re-mes" class="col-sm-12 col-form-label">Rate this Product</label> -->
+    
+                                                <div class="rating mb-1">
+                                                    <input type="radio" name="comment-rating" id="comment-rating-5">
+                                                    <label for="comment-rating-5"></label>
+                                                    <input type="radio" name="comment-rating" id="comment-rating-4">
+                                                    <label for="comment-rating-4"></label>
+                                                    <input type="radio" name="comment-rating" id="comment-rating-3">
+                                                    <label for="comment-rating-3"></label>
+                                                    <input type="radio" name="comment-rating" id="comment-rating-2">
+                                                    <label for="comment-rating-2"></label>
+                                                    <input type="radio" name="comment-rating" id="comment-rating-1">
+                                                    <label for="comment-rating-1"></label>
+                                                </div>
+                                            </div>
+    
+                                            <div class="form-group row px-1">
+                                                <!-- <label for="re-mes" class="col-sm-12 col-form-label">Message</label> -->
+                                                <div class="col-sm-12">
+                                                    <textarea type="text" class="form-control" id="re-mes" placeholder="Re-enter New Password">
+                                                    </textarea>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
-                                    <div class="rev-date">
-                                        04/03/2020
+
+
+                                    <!-- reply -->
+                                    <div class="rev-box">
+                                        <div class="rev-user">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
+                                            <div>
+                                                <h6>
+                                                    Chrissy
+                                                    <span>Verified User</span>
+                                                </h6>
+                                                <div class="star">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="rev-date">
+                                                04/03/2020
+                                            </div>
+                                        </div>
+                                        <div class="rev-content">
+                                            <strong>Awesome</strong>
+                                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga rem quia iure quae optio odit totam nobis quis eius perspiciatis, facere reiciendis? Quam, eum earum! Atque praesentium dolor iste?</p>
+                                        </div>
+
+                                        <div class="action">
+                                            <button class="btn"> <i class="fa fa-thumbs-up"></i>12</button>
+                                            <button class="btn"> <i class="fa fa-thumbs-down"></i>3</button>
+                                            <button class="btn"> <i class="fa fa-comment-dots"></i> Reply</button>
+                                        </div>
+                                        
+                                                                            <form class="comment-form ">
+                                                                                <div class="rev-box p-1 py-2">
+                                                                                    <div class="rev-user">
+                                                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBfYOFZeVd-vB6uCNlmjna1zcgd0_JYrij9NP1To1ZWpyBxhmpVjAnJ2mdYiJ7J13Gso&usqp=CAU" alt="">
+                                                                                        <div>
+                                                                                            <h6>
+                                                                                                Chrissy
+                                                                                                <span>Verified User</span>
+                                                                                            </h6>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                        
+                                                                                <div class="form-group row px-1 pt-2">
+                                                                                    <!-- <label for="re-mes" class="col-sm-12 col-form-label">Rate this Product</label> -->
+                                        
+                                                                                    <div class="rating mb-1">
+                                                                                        <input type="radio" name="comment-rating" id="comment-rating-5">
+                                                                                        <label for="comment-rating-5"></label>
+                                                                                        <input type="radio" name="comment-rating" id="comment-rating-4">
+                                                                                        <label for="comment-rating-4"></label>
+                                                                                        <input type="radio" name="comment-rating" id="comment-rating-3">
+                                                                                        <label for="comment-rating-3"></label>
+                                                                                        <input type="radio" name="comment-rating" id="comment-rating-2">
+                                                                                        <label for="comment-rating-2"></label>
+                                                                                        <input type="radio" name="comment-rating" id="comment-rating-1">
+                                                                                        <label for="comment-rating-1"></label>
+                                                                                    </div>
+                                                                                </div>
+                                        
+                                                                                <div class="form-group row px-1">
+                                                                                    <!-- <label for="re-mes" class="col-sm-12 col-form-label">Message</label> -->
+                                                                                    <div class="col-sm-12">
+                                                                                        <textarea type="text" class="form-control" id="re-mes" placeholder="Re-enter New Password">
+                                                                                        </textarea>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
                                     </div>
-                                </div>
-                                <div class="rev-content">
-                                    <strong>Awesome</strong>
-                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga rem quia iure quae optio odit totam nobis quis eius perspiciatis, facere reiciendis? Quam, eum earum! Atque praesentium dolor iste?</p>
+
                                 </div>
                             </div>
                         </div>
